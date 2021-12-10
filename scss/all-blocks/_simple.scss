@@ -1,0 +1,30 @@
+.simple{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    &__text{
+        padding-left: 50px;
+        width: 45%;
+        position: relative;
+        &::after{
+            content: "";
+            background: url("../img/simple-circle.png") no-repeat;
+            position: absolute;
+            width: 780px;
+            height: 780px;
+        }
+
+        &__title{
+            letter-spacing: -0.369231px;
+            color: #36536B;
+            font-family: 'DM Serif Display';
+        }
+        
+        &__desc{
+            width: 70%;
+            line-height: 28px;
+            color: #6C8294;
+            font-size: 12px;
+        }
+    }
+}

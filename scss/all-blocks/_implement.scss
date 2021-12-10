@@ -1,0 +1,32 @@
+.implement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    &__title{
+        margin: auto;
+        width: 50%;
+        &__item{
+            font-family: 'DM Serif Display';
+            letter-spacing: -0.369231px;
+            color: #36536B;
+        }
+
+        &__desc{
+            color: #6C8294;
+            width: 70%;
+            font-size: 12px;
+            line-height: 28px
+        }
+    }
+
+    &__img{
+        width: 50%;
+        &__item{
+            width: 500px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.getStart{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 120px;
+    padding-left: 80px!important;
+    padding-right: 80px!important;
+    &__block{
+        width: 43%;
+        &__title{
+            font-family: 'DM Serif Display';
+            font-size: 50px;
+            line-height: 72px;
+            /* or 100% */
+            letter-spacing: -0.553846px;
+            color: #36536B;
+        }
+    }
+
+    &__contact{
+        font-size: 12px;
+        line-height: 18px;
+            /* identical to box height */
+        color: #6C8294;
+    }
+    &::after{
+        content: "";
+        width: 50%;
+        height:780px;
+        
+        position: absolute;
+        z-index: 2;
+        top: -88px;
+        right: 0;
+        background: url("../img/back-circle.png") no-repeat;
+        background-size: contain;
+        background-position: top 0 right 0;
+        margin-right: 0;
+    }
+    &::before{
+        content: "";
+        width: 50vh;
+        height: 100vh;
+        left: 650px;
+        top: 50px;
+        position: absolute;
+        z-index: 4;
+        background: url("../img/phone.png") no-repeat;
+        background-size: contain;
+        //background-position: top -30px right 0;
+        //margin-right: 0;
+    }
+}
+
